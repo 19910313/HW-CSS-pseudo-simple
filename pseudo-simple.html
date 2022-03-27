@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Slectors | :pseudo - Button</title>
+    <style>
+      body {
+        background-color: #222;
+      }
+      .call-for-action {
+        border-bottom: 1px dashed gray;
+        color: #999;
+        font-family: arial;
+        padding: 10px;
+      }
+      .btn {
+        background-color: transparent;
+        color: white;
+        font-size: 18px;
+        border: 2px solid white;
+        padding: 6px 12px;
+        border-radius: 15px;
+        margin-left: 6px;
+        margin-right: 6px;
+      }
+      .btn:hover {
+        color: orangered;
+        border-color: orange;
+        background-color: rgb(43, 7, 110);
+        transition: 0.2s;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- form -->
+    <label class="call-for-action" for=""
+      >To start the training hit <button class="btn">this Button</button>!
+    </label>
+  </body>
+</html>

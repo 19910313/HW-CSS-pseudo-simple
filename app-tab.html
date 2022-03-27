@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>APP TAB example | Pseudo</title>
+    <style>
+      .tabs {
+        /* border: 1px dotted black; */
+        list-style: none;
+        padding: 10px;
+        margin: 20px;
+      }
+      .tabs-item {
+        border: 1px solid #e6e6e6;
+        display: inline-block;
+        padding: 20px 10px;
+        margin: 5px;
+        text-align: center;
+        border-radius: 5px;
+        transition: 0.25px;
+        height: 80px;
+        width: 80px;
+      }
+      .tabs-item:hover {
+        background-color: #cccccc;
+      }
+      .tabs-img {
+        margin-bottom: 15px;
+      }
+      .tabs-link {
+        text-decoration: none;
+        color: #333;
+      }
+      .tabs-options {
+        font-size: 30px;
+        line-height: 5px;
+        background-color: gray;
+        border-radius: 14px;
+        height: 28px;
+        width: 28px;
+        opacity: 0;
+        transform: translateY(-105px) translateX(61px);
+      }
+      .tabs-options:hover {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="tabs">
+      <li class="tabs-item" title="acces this account">
+        <a class="tabs-link" href="#">
+          <img
+            class="tabs-img"
+            src="https://icons.iconarchive.com/icons/bokehlicia/captiva/48/web-github-icon.png"
+            alt="github"
+          />
+          <br />
+          GitHub
+        </a>
+        <div class="tabs-options">.<br />.<br />.</div>
+      </li>
+      <li class="tabs-item">
+        <a class="tabs-link" href="#">
+          <img
+            class="tabs-img"
+            src="https://icons.iconarchive.com/icons/wwalczyszyn/android-style-honeycomb/48/YouTube-icon.png"
+            alt="github"
+          />
+          <br />
+          YouTube
+        </a>
+        <div class="tabs-options">.<br />.<br />.</div>
+      </li>
+      <li class="tabs-item">
+        <a class="tabs-link" href="#">
+          <img
+            class="tabs-img"
+            src="https://icons.iconarchive.com/icons/alecive/flatwoken/48/Apps-Netflix-icon.png"
+            alt="github"
+          />
+          <br />
+          Netflix
+        </a>
+        <div class="tabs-options">.<br />.<br />.</div>
+      </li>
+    </ul>
+  </body>
+</html>
